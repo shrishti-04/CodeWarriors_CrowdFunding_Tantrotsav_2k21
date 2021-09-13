@@ -1,3 +1,13 @@
+<?php
+
+session_start();
+
+if (!isset($_SESSION["user_id"])) {
+    header("Location: index.php");
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
@@ -23,8 +33,8 @@
     <h2>Help with smile...</h2>
     </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand navbar-dark" style="font-size:25px">Ashu's Pen    <img src="images/fountain-pen-close-up.png"></a>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#CA6702">
+    <a class="navbar-brand navbar-dark" style="font-size:25px">HelpRaise</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -39,6 +49,9 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Buy</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link" href="logout.php">Logout</a>
+        </li>
       </ul>
     </div>
   </nav>
@@ -46,13 +59,13 @@
 <div id="profile-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="background-color:#fff">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img class="title-img" src="images/img1.jpg">
+      <img class="title-img" style="width:100%" src="images/img1.jfif">
     </div>
     <div class="carousel-item">
-      <img class="title-img" src="images/img2.jfif">
+      <img class="title-img" style="width:100%" src="images/img2.jfif">
     </div>
     <div class="carousel-item">
-      <img class="title-img" src="images/img3.jfif">
+      <img class="title-img" style="width:100%" src="images/img4.jfif">
     </div>
   </div>
 </div>

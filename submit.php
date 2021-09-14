@@ -19,21 +19,20 @@
 </head>
 <body>
 <h1 style="text-align: center; margin-top:80px; color:#0a9396">Your Payment done Succesfully...</h1>
-<p style="text-align: center; font-size:20px">Your pet will be delivered soon before two days</p>
 </body>
 </html>
 
 <?php
-require('config.php');
+require('confige.php');
 if(isset($_POST['stripeToken'])){
 	\Stripe\Stripe::setVerifySslCerts(false);
 
-	$token = isset($_POST['stripeToken']);
+	$token=$_POST['stripeToken'];
 
 	$data=\Stripe\Charge::create(array(
 		"amount"=>1000,
 		"currency"=>"inr",
-		"description"=>"Programming with Vishal Desc",
+		"description"=>"Help with smile",
 		"source"=>$token,
 	));
 

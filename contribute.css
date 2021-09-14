@@ -1,0 +1,11 @@
+body{
+  text-align: center;
+  background-image: url('images/conbg.png');
+}
+
+.detail{
+  padding: 2rem 3rem;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 60px;
+}

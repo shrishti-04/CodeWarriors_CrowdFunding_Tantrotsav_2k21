@@ -134,7 +134,7 @@ if (isset($_POST["signin"])) {
             Sign up
           </button>
         </div>
-        <img src="log.svg" class="image" alt="" />
+        <img src="img/log.svg" class="image" alt="" />
       </div>
       <div class="panel right-panel">
         <div class="content">
@@ -147,7 +147,7 @@ if (isset($_POST["signin"])) {
             Sign in
           </button>
         </div>
-        <img src="register.svg" class="image" alt="" />
+        <img src="img/register.svg" class="image" alt="" />
       </div>
     </div>
   </div>

@@ -1,5 +1,7 @@
 body{
   text-align: center;
+  background-image: url('images/bg.png');
+  background-repeat: no-repeat;
 }
 
 h1{
@@ -16,14 +18,15 @@ h4, h3, p {
 
 /*Title Section*/
 
-#title{
-  background-image: linear-gradient(#E9D8A6, #EE9B00);
-}
-
 .frontpage{
     text-align: center;
     color: white;
     padding: 2% 3%;
+}
+
+.nav{
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 .pen-logo{
@@ -32,6 +35,14 @@ h4, h3, p {
 
 .logo{
     margin-left: 30px;
+}
+
+.navbar{
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-left: 100px;
+  margin-right:100px;
+  border-radius: 30px;
+  border: solid white 3px;
 }
 
 .nav-brand{

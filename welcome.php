@@ -35,42 +35,41 @@ if (!isset($_SESSION["user_id"])) {
     <h2>Help with smile...</h2>
     </div>
 
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#CA6702">
-    <a class="navbar-brand navbar-dark" style="font-size:25px">HelpRaise</a>
+  <nav class="navbar navbar-expand-lg navbar-dark" style="color:white">
+    <a class="navbar-brand navbar-dark" style="font-size:25px; padding-left:15%; font-weight:700; font-size:30px">HelpRaise</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ml-auto" style="padding-right:15%; margin-left:50px">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" style="color:white" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contribute.php">Contribution</a>
+          <a class="nav-link" style="color:white" href="contribute.php">Contribution</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Feedback</a>
+          <a class="nav-link" style="color:white" href="comment/index.php">Feedback</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
+          <a class="nav-link" style="color:white" href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
         </li>
       </ul>
     </div>
   </nav>
+  <div class="row detail">
+        <div class="col-lg-6 col-md-12 col-sm-12">
+          <img class="abimg" src="images/colloborator.svg" style="height:400px; padding-left:80px; margin-top:30px" alt="about">
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 para">
+          <p style="color:white; font-size:20px; margin-right:80px; margin-top:90px">A major objective of many non-governmental organizations (NGOs) is welfare work in relation to poverty and
+            disease or in respect to social groups such as the elderly or children. HelpRaise is an NGO platform which is used to help <thead>
+              poor through funding. The Funds will be  collected  through this website and the amount will be transferred to this NGO.
+            </thead> </p>
 
-<div id="profile-carousel" class="carousel slide" data-ride="carousel" data-interval="3000" style="background-color:#fff">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img class="title-img" style="width:100%" src="images/img1.jfif">
-    </div>
-    <div class="carousel-item">
-      <img class="title-img" style="width:100%" src="images/img2.jfif">
-    </div>
-    <div class="carousel-item">
-      <img class="title-img" style="width:100%" src="images/img4.jfif">
-    </div>
-  </div>
-</div>
+        </div>
+      </div>
+
 
 </section>
   </body>

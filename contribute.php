@@ -52,7 +52,7 @@ require('confige.php');
 												data-amount="12000"
 												data-name="HelpRaise"
 												data-description="Help with smile."
-												data-image="https://saveanimals.io/img/logo.png"
+												data-image="https://www.nicepng.com/png/full/195-1957002_union-of-helping-hands-gender-issues-and-human.png"
 												data-currency="inr"
 												data-email= <?php echo $_POST['email']; ?>
 											>

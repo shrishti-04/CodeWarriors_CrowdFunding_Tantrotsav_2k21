@@ -127,8 +127,7 @@ if (isset($_POST["signin"])) {
         <div class="content">
           <h3>New here ?</h3>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis,
-            ex ratione. Aliquid!
+            GO FOR IT!
           </p>
           <button class="btn transparent" id="sign-up-btn">
             Sign up

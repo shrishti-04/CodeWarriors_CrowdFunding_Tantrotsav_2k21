@@ -18,7 +18,7 @@
 	<title>successful</title>
 </head>
 <body>
-<h1 style="text-align: center; margin-top:80px; color:#0a9396">Your Payment done Succesfully...</h1>
+<h1 style="text-align: center; margin-top:80px; color:#EE9B00">Your Payment done Succesfully...</h1>
 </body>
 </html>
 

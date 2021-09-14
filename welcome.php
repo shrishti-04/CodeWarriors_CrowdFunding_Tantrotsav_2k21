@@ -1,3 +1,5 @@
+<!-- rzp_test_hwYwo9YcZdBnMT	 -->
+
 <?php
 
 session_start();
@@ -41,16 +43,16 @@ if (!isset($_SESSION["user_id"])) {
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">pricing</a>
+          <a class="nav-link" href="contribute.php">Contribution</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Buy</a>
+          <a class="nav-link" href="#">Feedback</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="logout.php">Logout</a>
+          <a class="nav-link" href="logout.php"><i class="fas fa-sign-out-alt"></i></a>
         </li>
       </ul>
     </div>
